@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+	<filename>/Users/ejavier/eclipse-workspace/dm/src/resources/RWAC.txt</filename>
+	<output>/Users/ejavier/eclipse-workspace/dm/src/resources/RWACoutput.txt</output>
+	<header></header>
+	<fields>
+			<field length="10" name="FIRST_NAME" isStatic="false" isNumeric="false" replacement="com.ejavier.dm.FirstNameMaskingLogicImpl"></field>
+	    	<field length="10" name="LAST_NAME" isStatic="false" isNumeric="false" replacement="com.ejavier.dm.LastNameMaskingLogicImpl"></field>
+	    	<field length="10" name="CIF" isStatic="true" isNumeric="true" replacement=""></field>
+	    	<field length="10" name="ADDRESS1" isStatic="true" isNumeric="false" replacement="Address A"></field>
+	    	<field length="10" name="ADDRESS2" isStatic="true" isNumeric="false" replacement="Address B"></field>
+	</fields>
+	<footer></footer>>
+</file>
